@@ -2145,13 +2145,34 @@ body {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 110px 0 60px;
+        overflow: visible;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 0.75rem;
     }
 
     .hero-buttons .btn {
-        width: 250px;
+        width: 100%;
+        max-width: 280px;
+        padding: 0.85rem 1.5rem;
+        font-size: 0.95rem;
     }
 
     .services-grid,
@@ -2229,8 +2250,24 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .hero {
+        padding: 100px 0 50px;
+    }
+
     .hero-title {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-buttons .btn {
+        max-width: 250px;
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
     }
 
     .section-title {
